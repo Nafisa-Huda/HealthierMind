@@ -99,8 +99,7 @@ header{
 
 .nav__item{
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  flex-direction: ;
 }
 .nav__link {
     border: 3px red solid;

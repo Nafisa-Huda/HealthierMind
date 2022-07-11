@@ -97,11 +97,6 @@ header{
     margin-left: 60%;
 } */
 
-.nav__item{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
 .nav__link {
     border: 3px red solid;
     text-decoration: none;
