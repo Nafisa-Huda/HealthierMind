@@ -12,6 +12,8 @@ img {
     max-width: 100%;
 }
 
+/* home page */
+
 .container {
     width: 100%;
     max-width: 1100px;
@@ -22,13 +24,15 @@ img {
 .row {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 100%;
     border: 3px yellow solid;
 }
 
 .logo {
-    margin-right:0;
-    width: 40%;
+    width: 5em;
+    height: 5em;
+    margin-right: 2em;
     border: 3px red solid;
 }
 
@@ -37,12 +41,11 @@ img {
     justify-content: space-between;
     align-items: center;
     flex-grow: 1;
-    flex-shrink: 0;
 }
 
 .nav__list {
     margin: 0;
-    padding: 0;
+    padding-right: 1em;
     list-style: none;
 
     display: flex;
@@ -70,6 +73,8 @@ img {
     opacity: .75;
 }
 
+
+
 /* activities page */
 
 .activities-header{
@@ -94,8 +99,6 @@ img {
   justify-content: center;
   background-color: #FFF9A6;
 }
-
-
 
 .scene {
   width: 20rem;
