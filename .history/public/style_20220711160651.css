@@ -26,9 +26,10 @@ header{
   background-color: #d2edfc;
   height: 10%;
 }
-  .containerImg > img {
+  img {
       width: 100%;
-      margin: 5rem 5rem 5rem 5rem ;
+      margin: auto 5rem;
+      -top: 5rem;
       max-height: 100%;
       border: black solid 0.5rem;
       padding: auto;
@@ -39,6 +40,7 @@ header{
 .container {
     width: 100vw;
     margin: 0 auto;
+    border: 3px green solid; 
 }
 .main{
   height: 100vh;
@@ -46,21 +48,10 @@ header{
 
 .hero{
   display: flex;
-  background-color: #d2edfc;
-}
-.hero > h1,
-.hero > p {
- text-align: center;
 }
   .hero__text{
     width: 50%;
-    margin: 8rem 0 4rem 2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
   }
-
 .row {
     display: flex;
     justify-content: space-between;
@@ -73,7 +64,6 @@ header{
     height: 5em;
     margin-right: 2em;
     border: 3px red solid;
-    margin-left: 5rem;
 }
 
 .nav {
@@ -85,6 +75,7 @@ header{
 
 .nav__list {
     margin: 0;
+    padding-right: 1em;
     list-style: none;
 
     display: flex;
@@ -93,15 +84,10 @@ header{
     font-size: 1rem;
 }
 
-/* .nav__item + .nav__item {
+.nav__item + .nav__item {
     margin-left: 60%;
-} */
-
-.nav__item{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
 }
+
 .nav__link {
     border: 3px red solid;
     text-decoration: none;

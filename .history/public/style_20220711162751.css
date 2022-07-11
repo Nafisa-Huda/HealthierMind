@@ -100,7 +100,7 @@ header{
 .nav__item{
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 .nav__link {
     border: 3px red solid;
