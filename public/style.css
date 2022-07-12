@@ -84,20 +84,24 @@ img {
   border-bottom: solid #fff 4px;
 }
 
-.title{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 3rem;
-  color: #fff;
-}
-
 
 .activities-container{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   background-color: #FFF9A6;
+}
+
+.activities-header{
+  /* background-image: url(header.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; */
+  width: 100%;
+  height: 400px;
+  background: url('header.png');
+  background-size: cover;
+
 }
 
 .scene {
@@ -124,7 +128,9 @@ img {
   position: absolute;
   width: 100%;
   height: 100%;
-  line-height: 260px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: #fff;
   text-align: center;
   font-weight: bold;
@@ -134,9 +140,42 @@ img {
 
 .front {
   background-color: #FF9F9F;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
 }
 
 .back {
   background-color: #FF9F9F;
   transform: rotateY(180deg);
+  font-size: larger;
+  border-radius: 2rem;
+  line-height: 2.3rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
+
+
+.ul{
+  padding: 3rem;
+  font-size: large;
+  text-align: left;
+}
+
+
+.hydrated{
+  font-size: larger;
+  padding: 1rem;
+}
+
+.prompts-back{
+  line-height: 1.7rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+
+
