@@ -81,10 +81,11 @@ header{
 }
 
 .logo {
-    width:5em;
-    height:5em;
-    /* border: 3px red solid; */
-    margin-left: 2.5rem;
+  width: 5em;
+  height: 5em;
+  /* border: 3px red solid; */
+  margin-left: 2.5rem;
+  margin-right: 3.5rem;
 }
 
 .nav {
@@ -106,7 +107,7 @@ header{
 }
 
 .nav__item + .nav__item {
-    margin-left: 60%;
+    /* margin-left: 50%; */
 }
 
 .nav__item {
@@ -117,7 +118,7 @@ header{
 .nav__link {
   /* border: 3px red solid; */
   text-decoration: none;
-  font-size: large;
+  font-size: initial;
   color: #FF9F9F;
 
 }
@@ -137,16 +138,19 @@ header{
   flex-direction: column;
   align-items: center;
   height: 25rem;
-  background: #b278ea;
   padding-top: 5rem;
+  background: #d2edfc;
 }
 
 .headings-container {
   display: flex;
-  padding: 2rem;
-  background: #9a52df;
+  padding: 3rem;
+  background: linear-gradient(10deg, #b279ea, #ff9f9f);
   flex-direction: column;
   align-items: center;
+  border: solid 0px white;
+  box-shadow: black 6px;
+  box-shadow: 1px 1px 2rem rgb(0 0 0 / 30%);
 }
 
 .headings {
@@ -160,6 +164,7 @@ header{
   flex-wrap: wrap;
   justify-content: center;
   background-color: #b279ea;
+  padding-top: 5rem;
 }
 
 span {
