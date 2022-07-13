@@ -12,6 +12,7 @@ html{
   scroll-behavior: smooth;
   scroll-padding-top: (--scroll-padding,100px);
 }
+
 /*scrollbar*/
 ::-webkit-scrollbar{
   width: 0.7em;
@@ -22,15 +23,16 @@ html{
 ::-webkit-scrollbar-thumb{
   background: #FFE170;
 }
+
+
 header{
   background-color: #d2edfc;
   height: 10%;
 }
   .containerImg > img {
-      width: 100%;
+      width: 80%;
       margin: 5rem 5rem 5rem 5rem ;
       max-height: 100%;
-      border: black solid 0.5rem;
       padding: auto;
   }
 
@@ -48,10 +50,19 @@ header{
   display: flex;
   background-color: #d2edfc;
 }
-.hero > h1,
-.hero > p {
- text-align: center;
+.hero h1 {
+  font-family: caveat brush;
+  text-align: center;
+  margin-top: 0%;
+  font-size: 3em;
 }
+
+.hero p {
+  padding: 0 0.5em;
+  margin-top: 0;
+  text-align: center;
+}
+
   .hero__text{
     width: 50%;
     margin: 8rem 0 4rem 2rem;
@@ -69,11 +80,10 @@ header{
 }
 
 .logo {
-    width: 5em;
-    height: 5em;
-    margin-right: 2em;
-    border: 3px red solid;
-    margin-left: 5rem;
+    width:5em;
+    height:5em;
+    /* border: 3px red solid; */
+    margin-left: 2.5rem;
 }
 
 .nav {
@@ -81,6 +91,7 @@ header{
     justify-content: space-between;
     align-items: center;
     flex-grow: 1;
+    max-width: 100%;
 }
 
 .nav__list {
@@ -93,9 +104,9 @@ header{
     font-size: 1rem;
 }
 
-/* .nav__item + .nav__item {
+.nav__item + .nav__item {
     margin-left: 60%;
-} */
+}
 
 .nav__item{
   display: flex;
@@ -103,7 +114,7 @@ header{
   justify-content: space-evenly;
 }
 .nav__link {
-    border: 3px red solid;
+    /* border: 3px red solid; */
     text-decoration: none;
     font-size: large;
     color: #FF9F9F;
