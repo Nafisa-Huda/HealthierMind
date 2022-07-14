@@ -26,53 +26,14 @@ html {
   background: #ffe170;
 }
 
+/* home page */
+
 header{
   background-color: #d2edfc;
   height: 10%;
 }
-  .containerImg > img {
-      width: 80%;
-      margin: 5rem 5rem 5rem 5rem ;
-      max-height: 100%;
-      padding: auto;
-  }
 
-/* home page */
-
-.container {
-  width: 100vw;
-  margin: 0 auto;
-}
-.main {
-  height: 100vh;
-}
-
-.hero {
-  display: flex;
-  background-color: #d2edfc;
-}
-.hero h1 {
-  font-family: caveat brush;
-  text-align: center;
-  margin-top: 0%;
-  font-size: 3em;
-}
-
-.hero p {
-  padding: 0 0.5em;
-  margin-top: 0;
-  text-align: center;
-}
-
-  .hero__text{
-    width: 50%;
-    margin: 8rem 0 4rem 2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-  }
-
+/* nav bar */
 .row {
   display: flex;
   justify-content: space-between;
@@ -83,7 +44,6 @@ header{
 .logo {
   width: 5em;
   height: 5em;
-  /* border: 3px red solid; */
   margin-left: 2.5rem;
   margin-right: 3.5rem;
 }
@@ -116,7 +76,6 @@ header{
   padding-right: 9rem;
 }
 .nav__link {
-  /* border: 3px red solid; */
   text-decoration: none;
   font-size: initial;
   color: #FF9F9F;
@@ -131,7 +90,68 @@ header{
   opacity: 0.75;
 }
 
-/* activities page */
+/* hero-top */
+
+.hero {
+  background-color: #d2edfc;
+  padding-bottom: 5em;
+}
+
+.hero-top{
+  padding-bottom: 5.5em;
+}
+
+.containerImg > img {
+  width: 80%;
+  margin: 6rem 5rem 5rem 5rem ;
+  max-height: 100%;
+  padding: auto;
+}
+
+.container {
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.hero-top{
+  display: flex;
+}
+.hero h1 {
+  font-family: caveat brush;
+  margin-top: 0%;
+  font-size: 3em;
+}
+
+.hero p {
+  padding: 0 0.5em;
+  margin-top: 0;
+  text-align: center;
+}
+
+.hero__text{
+    width: 50%;
+    margin: 8rem 0 4rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+/* hero-bottom */
+
+.hero-bottom h2{
+  font-family: caveat brush;
+  color: black;
+  font-size: 2em;
+  text-decoration: underline #FF9F9F;
+}
+
+.hero-bottom p {
+  text-align: justify;
+}
+
+
+ /* activities page */
 
 .activities-title {
   display: flex;
