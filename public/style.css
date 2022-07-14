@@ -139,6 +139,7 @@ header{
 
 /* hero-bottom */
 
+
 .hero-bottom h2{
   font-family: caveat brush;
   color: black;
@@ -148,8 +149,13 @@ header{
 
 .hero-bottom p {
   text-align: justify;
+  width: 100%;
 }
 
+.hero-bottom img {
+  width: 10em;
+  height: 10em;
+}
 
  /* activities page */
 
