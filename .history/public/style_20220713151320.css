@@ -24,7 +24,7 @@ html {
   background: antiquewhite;
 }
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(10deg, #69488a, #f18d8d);
+  background: #ffe170;
 }
 
 header{
@@ -44,6 +44,8 @@ header{
   width: 100vw;
   height: 18vh;
   margin: 0 auto;
+  box-shadow: 2rem 4rem rgb(0,0,0,0.3);
+  border-bottom: 0.1rem solid black;
 }
 .main {
   height: 100vh;
@@ -86,7 +88,7 @@ header{
   width: 15%;
   height: 100%;
   margin-left: 2.5rem;
-  margin-right: 1rem;
+  margin-right: 3.5rem;
 }
 
 .nav {
@@ -101,6 +103,7 @@ header{
   list-style: none;
   display: flex;
   align-items: center;
+
   font-size: 2rem;
 }
 
@@ -108,14 +111,12 @@ header{
   display: flex;
   flex-direction: row;
   padding: 0.8rem;
-  padding-right: 3rem;
   /* padding-right: 9rem; */
 }
 .nav__link {
   text-decoration: none;
   font-size: initial;
-  font-weight: 200;
-  color: #e68080;
+  color: #FF9F9F;
 }
 
 .nav__link--button {

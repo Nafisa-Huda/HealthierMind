@@ -24,7 +24,7 @@ html {
   background: antiquewhite;
 }
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(10deg, #69488a, #f18d8d);
+  background: #ffe170;
 }
 
 header{
@@ -108,7 +108,7 @@ header{
   display: flex;
   flex-direction: row;
   padding: 0.8rem;
-  padding-right: 3rem;
+  padding-right: 5rem;
   /* padding-right: 9rem; */
 }
 .nav__link {

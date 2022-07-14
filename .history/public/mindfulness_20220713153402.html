@@ -8,12 +8,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Fredoka+One&family=Roboto&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/public/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/mindfulness.css">
 </head>
 <body>
     <header>
         <div class="container row">
-            <img class="logo" src="https://i.ibb.co/xLGc6jC/Healthy-Mind-logo.png" alt="healthy-mind-logo">
+            <a href="index.html"><img class="logo" src="https://i.ibb.co/xLGc6jC/Healthy-Mind-logo.png" alt="healthy-mind-logo"></a>
         <nav class="nav">
             <ul class="nav__list">
                 <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
@@ -25,21 +26,29 @@
         </nav>
         </div>
     </header>
+<h1> Excercises to calm your mind </h1>
+    <!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide">Slide 1</div>
+      <div class="swiper-slide">Slide 2</div>
+      <div class="swiper-slide">Slide 3</div>
+      ...
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+</div>
 
-    <!-- <section class="hero main"> -->
-        <div class="hero main ">
-            <div class="hero__text">
-                <h1>HealthyMind</h1>
-                <p>A mindfulness-based app that takes kids ages 8-12 on an interactive journey to learn about mental wellbeing and  how fun it can be to create a healthier mind. </p>
-            </div>
-            <div class="containerImg">
-            <img class="hero__img" src="https://i.ibb.co/m0VQ7KQ/kids-meditating.png" alt="image one here" srcset="">
-            </div>
-         </div>
-    </section> 
-
-
-<script src="/public/main.js"></script>
+<script src="js/mindfulness.js"></script>  
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 </body>
 </html>
-

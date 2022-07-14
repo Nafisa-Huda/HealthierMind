@@ -1,0 +1,106 @@
+/*Mindfulness page */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  max-width: 100%;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3rem;
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: (--scroll-padding, 100px);
+}
+
+/*scrollbar*/
+::-webkit-scrollbar {
+  width: 0.7em;
+}
+::-webkit-scrollbar-track {
+  background: antiquewhite;
+}
+::-webkit-scrollbar-thumb {
+  background: #ffe170;
+}
+
+header{
+  background-color: #d2edfc;
+  height: 10%;
+}
+  .containerImg > img {
+      width: 80%;
+      margin: 5rem 5rem 5rem 5rem ;
+      max-height: 100%;
+      padding: auto;
+  }
+  .logo {
+    width: 5em;
+    height: 5em;
+    /* border: 3px red solid; */
+    margin-left: 2.5rem;
+    margin-right: 3.5rem;
+  }
+  
+  .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-grow: 1;
+      max-width: 100%;
+  }
+  
+  .nav__list {
+    margin: 0;
+    list-style: none;
+  
+    display: flex;
+    align-items: center;
+  
+    font-size: 1rem;
+  }
+  
+  .nav__item + .nav__item {
+      /* margin-left: 50%; */
+  }
+  
+  .nav__item {
+    display: flex;
+    flex-direction: row;
+    padding-right: 9rem;
+  }
+  .nav__link {
+    /* border: 3px red solid; */
+    text-decoration: none;
+    font-size: initial;
+    color: #FF9F9F;
+  
+  }
+  
+  .nav__link--button {
+    padding: 0.25em 1em;
+  }
+  
+  .nav__link:hover {
+    opacity: 0.75;
+  }
+  .container {
+    width: 100vw;
+    margin: 0 auto;
+  }
+  .main {
+    height: 100vh;
+  }
+  .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+.swiper {
+    width: 600px;
+    height: 300px;
+  }

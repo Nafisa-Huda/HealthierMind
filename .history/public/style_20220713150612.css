@@ -2,11 +2,10 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
 body {
+  margin: 0;
   max-width: 100%;
   font-family: "Roboto", sans-serif;
   font-size: 1.3rem;
@@ -24,12 +23,13 @@ html {
   background: antiquewhite;
 }
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(10deg, #69488a, #f18d8d);
+  background: #ffe170;
 }
 
 header{
   background-color: #d2edfc;
-  height: 3%;
+  box-shadow: 2rem 4rem 4remrgb(0,0,0,0.3) ;
+  height: 10%;
 }
   .containerImg > img {
       width: 80%;
@@ -42,7 +42,6 @@ header{
 
 .container {
   width: 100vw;
-  height: 18vh;
   margin: 0 auto;
 }
 .main {
@@ -83,10 +82,10 @@ header{
 }
 
 .logo {
-  width: 15%;
-  height: 100%;
+  width: 10rem;
+  height: 10rem;
   margin-left: 2.5rem;
-  margin-right: 1rem;
+  margin-right: 3.5rem;
 }
 
 .nav {
@@ -101,6 +100,7 @@ header{
   list-style: none;
   display: flex;
   align-items: center;
+
   font-size: 2rem;
 }
 
@@ -108,14 +108,12 @@ header{
   display: flex;
   flex-direction: row;
   padding: 0.8rem;
-  padding-right: 3rem;
   /* padding-right: 9rem; */
 }
 .nav__link {
   text-decoration: none;
   font-size: initial;
-  font-weight: 200;
-  color: #e68080;
+  color: #FF9F9F;
 }
 
 .nav__link--button {

@@ -24,7 +24,7 @@ html {
   background: antiquewhite;
 }
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(10deg, #69488a, #f18d8d);
+  background: linear-gradient(10deg, #865cb1, #f18d8d);
 }
 
 header{
