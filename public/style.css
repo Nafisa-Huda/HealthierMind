@@ -463,3 +463,155 @@ span {
   padding-top: 1rem;
   font-family: "Font Awesome 6 Free";
 }
+/* 
+/* ----------- iPhone 6, 6S, 7 and 8 -----------
+
+/* Portrait and Landscape */
+/* @media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape 
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+}   */
+
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+    .containerImg > img {
+      width: 80%;
+      display: flex;
+      margin: auto;
+      padding: auto;
+      box-shadow: 1px 1px 2rem rgb(0 0 0 / 30%);
+    }
+
+    .hero-top{
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;    
+    }
+
+    .hero h1 {
+      font-family: caveat brush;
+      margin: inherit;
+      padding: 1rem;
+      font-size: 3em;
+  }
+
+  .hero__text {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: inherit;
+  }
+
+
+
+    .activities-content{
+      background: #9774c3;
+      border-top: solid 5px #ffe070;
+      padding: 1rem;
+      display: block;
+    }
+
+    .content-container{
+      display: block;
+      align-items: center;
+    }
+
+    .content-section{
+      display: flex;
+      align-items: center;
+    }
+
+
+    .content-section > p {
+      text-align: center;
+      line-height: 3rem;
+      width: auto;
+      padding-bottom: 1rem;
+      color: #fff;
+      margin: auto;
+      font-family: 'Caveat Brush';
+      font-size: larger;
+    }
+
+    .hero-bottom img{
+      height: 11em;
+      display: block;
+      margin: auto;
+    }
+
+    .activities-h2{
+      display: flex;
+      justify-content: center;
+      font-family: caveat brush;
+      color: #fff;
+      font-size: 2em;
+      margin: inherit;
+    }
+
+    .mindfulness-content-container{
+      display: block;
+      justify-content: space-between;
+      flex-direction: row-reverse;
+      align-items: center;
+    }
+
+    .mindfulness-content{
+      background: #ff9f9f;
+      border-top: solid 5px #ffe070;
+      padding: 1rem;
+      display: block;
+    }
+
+    .mindfulness-h2{
+      display: flex;
+      justify-content: center;
+      font-family: caveat brush;
+      color: #fff;
+      font-size: 2em;
+      margin: inherit;
+    }
+
+    .mindfulness-p{
+      text-align: center;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .mindfulness-p > p {
+      width: auto;
+      line-height: 3rem;
+      color: #fff;
+      font-family: 'Caveat Brush';
+      font-size: larger;
+    }
+
+    .tracker-h2{
+    display: flex;
+    justify-content: center;
+    font-family: caveat brush;
+    color: #fff;
+    font-size: 2em;
+    }
+
+}
