@@ -49,6 +49,8 @@ header{
   height: 100vh;
 }
 
+.hero {
+  display: flex;
 /* home page */
 
 header{
