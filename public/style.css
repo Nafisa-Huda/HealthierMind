@@ -283,25 +283,6 @@ header{
     padding-left: 2em;
 }
 
-/* hero-bottom */
-
-
-/* .hero-bottom{
-  font-family: caveat brush;
-  color: #fff;
-  font-size: 2em;
-  margin:inherit;
-} */
-
-
-/* .hero-bottom p {
-  text-align: end;
-  width: 50%;
-  line-height: 2rem;
-  color: #fff;
-  padding: inherit;
-} */
-
 .content-section p {
   text-align: end;
   width: 50%;
@@ -445,3 +426,29 @@ span {
   padding-top: 1rem;
   font-family: "Font Awesome 6 Free";
 }
+
+/* about page */
+
+.about {
+  background-color: #d2edfc;
+  height: 100vh;
+  width: 100vw;
+}
+
+.about-content {
+ width: 90%;
+ padding-left: 3em;
+}
+
+.about-title{
+  margin: 0 auto;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-family: caveat brush;
+  font-size: 2.5em;
+}
+
+.about_text {
+  font-size: 1.1em;
+}
+
