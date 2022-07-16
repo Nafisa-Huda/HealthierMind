@@ -155,36 +155,12 @@ header{
   border: 0.3rem solid purple;
   width: 100%;
   height: 40%;
+  display: flex;
+ 
 }
 .control__panel{
   border: 0.3rem solid pink;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  gap: 2rem;
-  padding: 0.5rem 0 2rem 0;
 }
-.back,
-.next,
-.pauplay{
-  background: none;
-  border-radius: 1rem;
-  padding: 0.7rem 1rem;
-  font-family: caveat brush;
-  text-transform: uppercase;
-  background: #ff9f9f;
-  color: #fff;
-  font-size: medium;
-  border: none;
-  border-radius: 3px;
-  cursor: pointer;
-  box-shadow:  0.3rem 0.3rem 2rem rgb(0 0 0 / 30%);
-  }
+.back,.next,.pauplay{
   
-  .back:hover,
-  .next:hover,
-  .pauplay:hover{
-    background:#f99292;
-  }
+}
