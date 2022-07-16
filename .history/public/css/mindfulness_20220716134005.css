@@ -161,17 +161,17 @@ header{
   width: 100%;
   display: flex;
   justify-content: center;
-  align-content: center;
-  align-items: center;
   gap: 2rem;
-  padding: 0.5rem 0 2rem 0;
+}
+.control__panel a{
+  padding-right: 10rem;
 }
 .back,
 .next,
 .pauplay{
   background: none;
-  border-radius: 1rem;
-  padding: 0.7rem 1rem;
+  border-radius: 0.75rem;
+  padding: 0.7rem;
   font-family: caveat brush;
   text-transform: uppercase;
   background: #ff9f9f;

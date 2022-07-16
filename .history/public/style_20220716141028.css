@@ -100,6 +100,7 @@ header{
 }
 
 /* hero-top */
+<<<<<<< HEAD
 
 .hero {
   background-color: #d2edfc;
@@ -308,6 +309,69 @@ header{
 .activities {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+=======
+
+.hero {
+  background-color: #d2edfc;
+  padding-bottom: 5em;
+}
+
+.hero-top{
+  padding-bottom: 5.5em;
+}
+
+.containerImg > img {
+  width: 80%;
+  margin: 6rem 5rem 5rem 5rem ;
+  max-height: 100%;
+  padding: auto;
+}
+
+.container {
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.hero-top{
+  display: flex;
+}
+.hero h1 {
+  font-family: caveat brush;
+  margin-top: 0%;
+  font-size: 3em;
+}
+
+.hero p {
+  padding: 0 0.5em;
+  margin-top: 0;
+  text-align: center;
+}
+
+.hero__text{
+    width: 50%;
+    margin: 8rem 0 4rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+/* hero-bottom */
+
+.hero-bottom h2{
+  font-family: caveat brush;
+  color: black;
+  font-size: 2em;
+  text-decoration: underline #FF9F9F;
+}
+
+.hero-bottom p {
+  text-align: justify;
+}
+
+
+ /* activities page */
+>>>>>>> tmp
 
 .activities-title {
   display: flex;
