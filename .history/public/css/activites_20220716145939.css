@@ -10,6 +10,7 @@ body {
   max-width: 100%;
   font-family: "Roboto", sans-serif;
   font-size: 1.3rem;
+  overflow:hidden;
 }
 html {
   scroll-behavior: smooth;

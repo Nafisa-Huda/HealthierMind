@@ -117,6 +117,28 @@ header{
 .nav__link:hover {
   opacity: 0.75;
 }
+.mindfulness-h2{
+  font-family: caveat brush;
+  color: #fff;
+  font-size: 2em;
+  margin:inherit;
+}
+
+.mindfulness-content{
+  background: #ff9f9f;
+  padding: 1em 3em 1em 3em;
+  border-top: solid 5px #ffe070;
+}
+
+.mindfulness-content-container{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+
+
 
 .swiper {
     width:60vw;
