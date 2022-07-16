@@ -115,8 +115,12 @@ header {
   font-size: initial;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: #FF9F9F;
-  font-weight: bold;
 }
+
+.nav__link--button {
+  padding: 0.25em 1em;
+}
+
 .nav__link:hover {
   opacity: 0.75;
 }

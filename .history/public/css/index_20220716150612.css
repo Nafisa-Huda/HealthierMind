@@ -44,7 +44,21 @@ header{
     margin-top: 0%;
     font-size: 3em;
   }
-  
+
+.hero p {
+  padding: 0 0.5em;
+  margin-top: 0;
+  text-align: center;
+}
+
+  .hero__text{
+    width: 50%;
+    margin: 8rem 0 4rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
    /* hero-top */
   
    .hero {
@@ -74,33 +88,36 @@ header{
     margin-left: 2.5rem;
     margin-right: 3.5rem;
   }
+  
   .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-grow: 1;
+      max-width: 100%;
+  }
+  
+  .nav__list {
+    margin: 0;
+    list-style: none;
+  
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    max-width: 100%;
-}
-.nav__list {
-  margin: 0;
-  list-style: none;
-  display: flex;
-  align-items: center;
-  font-size: 2rem;
-}
-.nav__item {
-  display: flex;
-  flex-direction: row;
-  padding: 0.8rem;
-  padding-right: 3rem;
-  /* padding-right: 9rem; */
-}
+  
+    font-size: 1rem;
+  }
+  
+  .nav__item {
+    display: flex;
+    flex-direction: row;
+    padding-right: 9rem;
+  }
   
   .nav__link {
     text-decoration: none;
     font-size: initial;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #FF9F9F;
-    font-weight: bold;
   }
   
   .nav__link--button {
@@ -122,6 +139,7 @@ header{
   .activities-content{
     background: #9774c3;
     border-top: solid 5px #ffe070;
+    /* padding: 1rem; */
     padding: 1em 3em 1em 3em;
   }
   
