@@ -154,6 +154,7 @@ header {
 
 .sidebar {
   border: 0.4rem solid yellow;
+  background-color: orange;
   width: 10%;
   display: flex;
   flex-direction: column;
