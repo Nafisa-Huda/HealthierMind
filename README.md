@@ -26,7 +26,7 @@ This is a mindfulness-based app that takes kids ages 8-12 on an interactive jour
 
 ## Lessons Learned:
 
-Creating this mindfulness web application allowed us to push our coding skills and creativity. Targeting a young age group, our focus was on accessibility and practicality. We would often ask ourselves "Would an 8 year old enjoy this feature"? Our team build a mindulness page that replicated Youtube with control mechanisms to switch through the videos and a sidebar to select similar videos that can then pop up on the screen. This project taught us how essential it is to make out applications as web accessibile and inclusive as possible. 
+Creating this mindfulness web application allowed us to push our coding skills and creativity. Targeting a young age group, our focus was on accessibility and practicality. We would often ask ourselves "Would an 8 year old enjoy this feature"? Our team built a mindfulness page similar to Youtube's structure, with control mechanisms to switch through the videos, and a sidebar to select similar videos that can then pop up on the screen. This project taught us how essential it is to make out applications as web accessibile and inclusive as possible. 
 
 ## Optimizations:
 
