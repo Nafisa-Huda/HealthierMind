@@ -5,27 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HealthierMind</title>
+    <audio id="audio" autoplay loop src="/music/Mindfulness.mp3"></audio>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Fredoka+One&family=Roboto&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a995213cd6.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
+    <i class="fa-solid fa-play"></i>
+    <i class="fa-solid fa-pause"></i>
         <div class="container row">
             <img class="logo" src="https://i.ibb.co/DtMnwsF/healthier-mind-logo.png" alt="healthy-mind-logo">
-        <nav class="nav">
-            <ul class="nav__list">
-                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
-                <li class="nav__item"><a href="activities.html" class="nav__link">Activities</a></li>
-                <li class="nav__item"><a href="mindfulness.html" class="nav__link">Mindfulness</a></li>
-                <li class="nav__item"><a href="tracker.html" class="nav__link">Mood</a></li>
-                <li class="nav__item"><a href="about.html" class="nav__link">About</a></li>
-            </ul>
-        </nav>
+            <nav class="nav">
+                <a href="javascript:void(0);" class="icon">
+                    <i class="fa-solid fa-bars"></i>
+                </a>
+                <div class="nav-links">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                        <li class="nav__item"><a href="activities.html" class="nav__link">Activities</a></li>
+                        <li class="nav__item"><a href="mindfulness.html" class="nav__link">Mindfulness</a></li>
+                        <li class="nav__item"><a href="about.html" class="nav__link">About</a></li>
+                    </ul>
+                </div>
+            </nav>
         </div>
-    </header>
-
    
     <div class="hero">
         <div class="hero-top">
@@ -63,7 +71,7 @@
                     </section>
                 </section>
 
-                <section class="tracker-content">
+                <!-- <section class="tracker-content">
                     <h2 class="tracker-h2">Mood Tracker</h2>
                     <section class="content-container">
                         <img class="tracker_img" src="https://i.ibb.co/G39qCZQ/different-emotions.png" alt="">
@@ -73,12 +81,12 @@
                             <button type="button" onclick="location.href='tracker.html'" class="btn">Mood Tracker</button>
                         </section>
                     </section>
-                </section>
+                </section> -->
             </main>
         </div>
     </div>
 
-<script src="/public/main.js"></script>
+<script src="/healthy-mind/public/js/main.js"></script>
 </body>
 </html>
 

@@ -19,3 +19,10 @@ const swiper = new Swiper('.swiper', {
     el: '.swiper-scrollbar',
   },
 });
+
+
+const video = document.getElementById("video");
+document.querySelector('.pauplay').addEventListener('click', pauplay)
+function pauplay() {
+  video.play();
+}

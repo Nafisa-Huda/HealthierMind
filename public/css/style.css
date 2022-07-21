@@ -7,12 +7,24 @@ body {
   margin: 0;
   padding: none;
   max-width: 100%;
-  font-family: "Roboto", sans-serif;
   font-size: 1.3rem;
+  background-color: #d2edfc;
 }
 html {
   scroll-behavior: smooth;
   scroll-padding-top: (--scroll-padding, 100px);
+}
+
+
+/* pause and play btn */
+.fa-play, .fa-pause{
+  cursor: pointer;
+  color: #FF9F9F;
+  padding-left: 1rem;
+}
+
+.fa-play:hover, .fa-pause:hover{
+  opacity: 0.75;
 }
 
 /*scrollbar*/
@@ -39,10 +51,10 @@ html {
 
 /* home page */
 
-header{
+/* header{
   background-color: #d2edfc;
   height: 10%;
-}
+} */
 
 /* nav bar */
 .row {
@@ -57,6 +69,21 @@ header{
   height: 3em;
   margin-left: 2.5rem;
   margin-right: 3.5rem;
+}
+
+.icon{
+  position: absolute;
+  top: .75rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+
+.nav-links {
+  height: 100%;
 }
 
 .nav {
@@ -85,7 +112,7 @@ header{
 .nav__link {
   text-decoration: none;
   font-size: initial;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Carter One', cursive;
   color: #FF9F9F;
   font-weight: bold;
 }
@@ -110,7 +137,7 @@ header{
 }
 
 
-/* activities on index.html */
+/* activities section on home page */
 
 .activities-h2{
   display: flex;
@@ -126,7 +153,16 @@ header{
   border-top: solid 5px #ffe070;
   /* padding: 1rem; */
   padding: 1em 3em 1em 3em;
+  font-family: 'Carter One', cursive;
+
 }
+
+.content-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 
 .content-container{
   display: flex;
@@ -140,10 +176,29 @@ header{
   align-items: flex-end;
 }
 
+.content-section p {
+  text-align: end;
+  width: 50%;
+  line-height: 2rem;
+  color: #fff;
+  padding: inherit;
+}
+
+
+.content-section > p{
+  text-align: end;
+  width: 50%;
+  line-height: 2.5rem;
+  color: #fff;
+  padding: inherit;
+  font-family: 'Carter One', cursive;
+  font-size: larger;
+}
+
 .btn{
   display: flex;
   padding: 7px;
-  font-family: caveat brush;
+  font-family: 'Carter One', cursive;
   text-transform: uppercase;
   background: #ff9f9f;
   color: #fff;
@@ -157,7 +212,7 @@ header{
   background:#f99292;
 }
 
-/* mindfulness on index.html */
+/* mindfulness section on home page */
 
 .mindfulness-h2{
   font-family: caveat brush;
@@ -190,14 +245,14 @@ header{
   line-height: 2.5rem;
   color: #fff;
   padding: inherit;
-  font-family: 'Caveat Brush';
+  font-family: 'Carter One', cursive;
   font-size: larger;
 }
 
 .mindfulness-btn{
   display: flex;
   padding: 7px;
-  font-family: caveat brush;
+  font-family: 'Carter One', cursive;
   text-transform: uppercase;
   background: #9774c3;;
   color: #fff;
@@ -211,7 +266,7 @@ header{
   background: #8364a8;
 }
 
-/* tracker on index.html */
+/* tracker section on home page */
 
 .tracker-h2{
   display: flex;
@@ -227,28 +282,6 @@ header{
   border-top: solid 5px #ffe070;
   /* padding: 1rem; */
   padding:  1em 3em 1em 3em;
-}
-
-.content-container{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.content-section{
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-}
-
-.content-section > p{
-  text-align: end;
-  width: 50%;
-  line-height: 2.5rem;
-  color: #fff;
-  padding: inherit;
-  font-family: 'Caveat Brush';
-  font-size: larger;
 }
 
 .containerImg > img {
@@ -269,7 +302,7 @@ header{
 }
 
 .hero__text{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Carter One', cursive;
   width: 50%;
   margin: 8rem 0 4rem 2rem;
   display: flex;
@@ -283,14 +316,6 @@ header{
   font-family: caveat brush;
   margin-top: 0%;
   font-size: 3em;
-}
-
-.content-section p {
-  text-align: end;
-  width: 50%;
-  line-height: 2rem;
-  color: #fff;
-  padding: inherit;
 }
 
 .hero-bottom img {
@@ -309,7 +334,7 @@ header{
   flex-direction: column;
   align-items: center;
   height: 25rem;
-  padding-top: 5rem;
+  padding-top: 2.5rem;
   background: #d2edfc;
 }
 
@@ -320,14 +345,16 @@ header{
   flex-direction: column;
   align-items: center;
   border: solid 0px white;
-  box-shadow: black 6px;
   box-shadow: 1px 1px 2rem rgb(0 0 0 / 30%);
+  border-radius: 1rem;
 }
 
 .headings {
   margin-top: 0;
   margin-bottom: 1rem;
-  color: #fff;
+  color: white;
+  font-family: 'Carter One', cursive;
+  font-size: xx-large;
 }
 
 .activities-container {
@@ -379,6 +406,7 @@ span {
 
 .face {
   position: absolute;
+  font-family: 'Carter One', cursive;
   width: 100%;
   height: 100%;
   display: flex;
@@ -435,12 +463,6 @@ span {
 
 /* about page */
 
-/* .about {
-  background-color: #d2edfc;
-  height: 100vh;
-  width: 100vw;
-} */
-
 .about-header{
   display: flex;
   flex-direction: column;
@@ -459,7 +481,7 @@ span {
     padding: 0 11rem 1rem 11rem;
     line-height: 3rem;
     color: #9774c3;
-    font-family: 'Caveat Brush';
+    font-family: 'Carter One', cursive;
     font-weight: 900;
     font-size: xx-large;
 }
@@ -487,19 +509,6 @@ span {
   display: flex;
   justify-content: center;
 }
-/* 
-.about-content > p{
-  text-align: center;
-  padding-right: 10rem;
-  padding-left: 10rem;
-  margin-top: auto;
-  line-height: 3rem;
-} */
-
-/* .services{
-  display: flex;
-} */
-
 
 .services{
   background: #9774c3;
@@ -534,9 +543,9 @@ span {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0rem 4rem 0rem 4rem;
+  width: 50%;  
   color: #d3ebfc;
-  font-family: 'Caveat Brush';
+  font-family: 'Carter One', cursive;
   font-size: larger;
 }
 
@@ -555,7 +564,8 @@ span {
 .fa-face-smile{
   color: #d3ebfc;
 }
-/* mindfulness css code */
+
+/* mindfulness page */
 .mindBody{
   overflow:hidden;
 }
@@ -675,18 +685,16 @@ span {
 
     .hero h1 {
       font-family: caveat brush;
-      margin: inherit;
       padding: 1rem;
       font-size: 3em;
   }
 
   .hero__text {
     width: 80%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: inherit;
-  }
+    margin: 0 auto;
+    padding: unset;
+}
+  
 
 
 
@@ -780,4 +788,83 @@ span {
     font-size: 2em;
     }
 
+
+/* about page */
+
+.services-container{
+  flex-direction: column;
 }
+
+.services-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  width: fit-content;
+  color: #d3ebfc;
+  font-family: 'Carter One', cursive;
+  font-size: larger;
+}
+
+.services-info > h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: larger;
+}
+
+.services-info > p {
+  font-size: larger;
+}
+
+.about-header-content > p {
+  text-align: center;
+  padding: 0.5rem;
+  color: #9774c3;
+  font-family: 'Caveat Brush';
+  font-family: 'Carter One', cursive;
+  font-weight: 900;
+  font-size: large;
+  line-height: 2rem;
+  margin: 0 auto;
+}
+
+
+
+/* nav */
+    
+
+.nav {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.icon{
+  display: flex;
+}
+
+.nav-links {
+  display: none;
+  width: 100%;
+}
+
+.nav__list{
+  width: 100%;
+  flex-direction: column;
+}
+
+.nav__item{
+  text-align: center;
+}
+
+.nav__item a{
+  padding: .5rem 1rem;
+
+}
+
+.nav-links.active {
+  display: flex;
+}
+
+
+  }
+
