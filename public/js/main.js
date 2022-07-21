@@ -15,6 +15,7 @@ const cards = document.querySelectorAll('.card');
         card.classList.toggle('is-flipped')
     })
 });
+<<<<<<< HEAD
 
 // function myFunction() {
 //     let x = document.querySelector(".nav__list");
@@ -31,3 +32,5 @@ const navLinks = document.getElementsByClassName('nav-links')[0]
 icon.addEventListener('click', () => {
   navLinks.classList.toggle('active')
 })
+=======
+>>>>>>> 7ccede5 (read me)
